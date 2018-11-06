@@ -1,3 +1,4 @@
+![alt text](https://i.imgur.com/g4NRVnB.png)
 # Overlord-Editor
 
 Out of personal interest i've decided to continue my progression on making an editor for the overlord engine. The project was a graduation work for my third year at Digital Arts and Entertainment.
