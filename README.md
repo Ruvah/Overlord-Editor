@@ -2,9 +2,10 @@
 # Overlord-Editor
 You can watch its current functionality on my youtube video: https://youtu.be/nWt86U60ea8
 
-## Used Libraries
+## Used Technologies
 Qt Open source 5.11.2
 <br>DirectX Toolkit
+<br>YAML-cpp
 
 ## Motivation
 Out of personal interest i've decided to continue my progression on making an editor for the overlord engine. The project was a graduation work for my third year at Digital Arts and Entertainment.
