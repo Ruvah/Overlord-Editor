@@ -4,7 +4,7 @@ You can watch its current functionality on my youtube video: https://youtu.be/nW
 
 ## Used Libraries
 Qt Open source 5.11.2
-DirectX Toolkit
+<br>DirectX Toolkit
 
 ## Motivation
 Out of personal interest i've decided to continue my progression on making an editor for the overlord engine. The project was a graduation work for my third year at Digital Arts and Entertainment.
