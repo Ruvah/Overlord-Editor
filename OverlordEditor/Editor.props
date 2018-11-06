@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <Resources>$(SolutionDir)OverlordEditor\Resources</Resources>
+    <DXTK>$(SolutionDir)DXTK\Inc</DXTK>
+    <OVL_LIBS>$(SolutionDir)Libs\</OVL_LIBS>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IncludePath>$(OVL_LIBS)Yaml\Inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OVL_LIBS)Yaml\Libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(DXTK);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="Resources">
+      <Value>$(Resources)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DXTK">
+      <Value>$(DXTK)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OVL_LIBS">
+      <Value>$(OVL_LIBS)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{163fb91d-e38f-4b3c-bdf4-58bab06f89d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\BaseScene">
+      <UniqueIdentifier>{b1c01a52-5dba-4703-aba6-71fda3d9474e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{785a5308-083f-4953-84d4-c7e6d29a090a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\Deferred">
+      <UniqueIdentifier>{a81d7f67-c935-4dea-b94b-5bab8ea77f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI">
+      <UniqueIdentifier>{24975812-2d19-43b3-a03b-473449a3324d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Viewports">
+      <UniqueIdentifier>{607bdbfe-cc27-484f-91fb-c83ed941e3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Widgets">
+      <UniqueIdentifier>{55e0cdbc-6370-4068-8648-f2dcb02c1686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Widgets\Hierarchypanel">
+      <UniqueIdentifier>{ef550928-f23d-4e7e-83e4-4bbea84b656c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Widgets\Treewidget">
+      <UniqueIdentifier>{ba6c0a7f-2d82-4cb9-9b7c-f42fb72d9efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Observers">
+      <UniqueIdentifier>{1aaed568-5d0e-4c93-881e-e4a3c007c622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Widgets\InspectorPanel">
+      <UniqueIdentifier>{0a27db35-8fc7-46a3-956c-69759b3321af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Commands">
+      <UniqueIdentifier>{46f6388e-005b-4732-9189-8665a80c64d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Widgets\NewProjectWindow">
+      <UniqueIdentifier>{d04bd886-14a5-4509-aa8a-21d636bbf27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Widgets\Explorer">
+      <UniqueIdentifier>{fb501264-e4c5-44bf-b4f3-de1264d1ba73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelComponents">
+      <UniqueIdentifier>{e868cffa-d305-47f0-9f75-676a6c85b917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelComponents\Colliders">
+      <UniqueIdentifier>{e31dc4de-9cdc-470e-9cad-d8e4002e04ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Management">
+      <UniqueIdentifier>{dcd269e2-e51e-443a-a369-df73d5fd3910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Widgets\InspectorPanel\GameObjects">
+      <UniqueIdentifier>{86f65685-37ea-4850-be2a-6434b6474eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Widgets\InspectorPanel\GameObjects\Components">
+      <UniqueIdentifier>{da60eace-b4e2-4493-bc96-3b7c4e8c71a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Commands\TransformComp">
+      <UniqueIdentifier>{6cc8830e-e690-482e-9bd1-99ddae42bdaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Widgets\InspectorPanel\Other">
+      <UniqueIdentifier>{5c34a598-3e23-4a39-a73f-a0e973cdde45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Viewports\MainEditView">
+      <UniqueIdentifier>{a87e89ba-1925-4be6-a03f-d4ebcce71fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\ThirdParty">
+      <UniqueIdentifier>{498ede21-0c92-4170-80cb-9f17f673e1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\ThirdParty\Gizmo">
+      <UniqueIdentifier>{3bcfa00f-0318-4646-b1db-bfa79710a159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Widgets\InspectorPanel\GameObjects\Components\SphereColliderComp">
+      <UniqueIdentifier>{105eee3f-9821-477d-8990-373541013615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Commands\SphereColliderComp">
+      <UniqueIdentifier>{dcd5f888-8ed9-429b-8b03-82d397d48200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{8fd3a3e1-4e55-4801-bbec-b664028c7b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diagnostics">
+      <UniqueIdentifier>{c45abea1-145d-47cb-b60c-e2559930238b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Widgets\InspectorPanel\GameObjects\Components\TransformComp">
+      <UniqueIdentifier>{9fa9dc7e-b5a1-4bdd-abad-7a9a9cf84426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="ResourceManagement">
+      <UniqueIdentifier>{0ca9be12-2fb2-4334-8fc7-c3982ed5e44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Commands\GameObjectViewer">
+      <UniqueIdentifier>{89ea5c3a-6790-4aad-99e7-deac4c379dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Commands\GeneralCommands">
+      <UniqueIdentifier>{873f4fb1-d008-46a0-a704-986f77aef65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Custom Objects">
+      <UniqueIdentifier>{02a994c4-54b1-4681-a8eb-ea6ac4b64998}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EditorScene.cpp">
+      <Filter>Editor\BaseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\ColorMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\DiffuseMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\SkinnedDiffuseMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\SkyBoxMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\SpikeyMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\UberMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\Deferred\ColorMaterial_Deferred.cpp">
+      <Filter>Materials\Deferred</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\Deferred\DiffuseMaterial_Deferred.cpp">
+      <Filter>Materials\Deferred</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="OVLTreeWidget.cpp">
+      <Filter>Editor\UI\Widgets\Treewidget</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlordEditor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectItem.cpp">
+      <Filter>Editor\UI\Widgets\Treewidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Editor\Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Editor\Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="InspectorPanel.cpp">
+      <Filter>Editor\UI\Widgets\InspectorPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Editor\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandManager.cpp">
+      <Filter>Editor\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NewProjectWindow.cpp">
+      <Filter>Editor\UI\Widgets\NewProjectWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplorerPanel.cpp">
+      <Filter>Editor\UI\Widgets\Explorer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OverlordEngine\SphereColliderComponent.cpp">
+      <Filter>HighLevelComponents\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchyPanel.cpp">
+      <Filter>Editor\UI\Widgets\Hierarchypanel</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysXMaterialViewer.cpp">
+      <Filter>Editor\UI\Widgets\InspectorPanel\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="TrnsfCompPosChangeCmd.cpp">
+      <Filter>Editor\Commands\TransformComp</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentInspector.cpp">
+      <Filter>Editor\UI\Widgets\InspectorPanel\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TrnsfCompRotChangeCmd.cpp">
+      <Filter>Editor\Commands\TransformComp</Filter>
+    </ClCompile>
+    <ClCompile Include="TrnsfCompScaleChangeCmd.cpp">
+      <Filter>Editor\Commands\TransformComp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="DirectX11Widget.cpp">
+      <Filter>Editor\Viewports\MainEditView</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectViewer.cpp">
+      <Filter>Editor\UI\Widgets\InspectorPanel\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny-gizmo.cpp">
+      <Filter>Editor\ThirdParty\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereColliderRadiusChanged.cpp">
+      <Filter>Editor\Commands\SphereColliderComp</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereColliderRotChangeCmd.cpp">
+      <Filter>Editor\Commands\SphereColliderComp</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereColliderTriggerChange.cpp">
+      <Filter>Editor\Commands\SphereColliderComp</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXDebugDraw.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereColliderComponentInspector.cpp">
+      <Filter>Editor\UI\Widgets\InspectorPanel\GameObjects\Components\SphereColliderComp</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponentInspector.cpp">
+      <Filter>Editor\UI\Widgets\InspectorPanel\GameObjects\Components\TransformComp</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>ResourceManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="RenameGameObjectCmd.cpp">
+      <Filter>Editor\Commands\GameObjectViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjParentChangeCmd.cpp">
+      <Filter>Editor\Commands\GeneralCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCommand.cpp">
+      <Filter>Editor\Commands\GeneralCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateGameObjectCmd.cpp">
+      <Filter>Editor\Commands\GeneralCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteGameObjCmd.cpp">
+      <Filter>Editor\Commands\GeneralCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="AddComponent.cpp">
+      <Filter>Editor\Commands\GameObjectViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteComponent.cpp">
+      <Filter>Editor\Commands\GameObjectViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLineEdit.cpp">
+      <Filter>Editor\UI\Custom Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EditorScene.h">
+      <Filter>Editor\BaseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\ColorMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\DiffuseMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\SkinnedDiffuseMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\SkyBoxMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\SpikeyMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\UberMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\Deferred\ColorMaterial_Deferred.h">
+      <Filter>Materials\Deferred</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\Deferred\DiffuseMaterial_Deferred.h">
+      <Filter>Materials\Deferred</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="GameObjectItem.h">
+      <Filter>Editor\UI\Widgets\Treewidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Editor\Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Editor\Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandManager.h">
+      <Filter>Editor\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Editor\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OverlordEngine\SphereColliderComponent.h">
+      <Filter>HighLevelComponents\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="TrnsfCompPosChangeCmd.h">
+      <Filter>Editor\Commands\TransformComp</Filter>
+    </ClInclude>
+    <ClInclude Include="TrnsfCompRotChangeCmd.h">
+      <Filter>Editor\Commands\TransformComp</Filter>
+    </ClInclude>
+    <ClInclude Include="TrnsfCompScaleChangeCmd.h">
+      <Filter>Editor\Commands\TransformComp</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny-gizmo.hpp">
+      <Filter>Editor\ThirdParty\Gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereColliderRadiusChanged.h">
+      <Filter>Editor\Commands\SphereColliderComp</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereColliderRotChangeCmd.h">
+      <Filter>Editor\Commands\SphereColliderComp</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereColliderTriggerChange.h">
+      <Filter>Editor\Commands\SphereColliderComp</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXDebugDraw.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryFuncs.h" />
+    <ClInclude Include="RenameGameObjectCmd.h">
+      <Filter>Editor\Commands\GameObjectViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjParentChangeCmd.h">
+      <Filter>Editor\Commands\GeneralCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCommand.h">
+      <Filter>Editor\Commands\GeneralCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateGameObjectCmd.h">
+      <Filter>Editor\Commands\GeneralCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteGameObjCmd.h">
+      <Filter>Editor\Commands\GeneralCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="AddComponent.h">
+      <Filter>Editor\Commands\GameObjectViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteComponent.h">
+      <Filter>Editor\Commands\GameObjectViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>ResourceManagement</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="HierarchyPanel.h">
+      <Filter>Editor\UI\Widgets\Hierarchypanel</Filter>
+    </QtMoc>
+    <QtMoc Include="OverlordEditor.h">
+      <Filter>Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="InspectorPanel.h">
+      <Filter>Editor\UI\Widgets\InspectorPanel</Filter>
+    </QtMoc>
+    <QtMoc Include="OVLTreeWidget.h">
+      <Filter>Editor\UI\Widgets\Treewidget</Filter>
+    </QtMoc>
+    <QtMoc Include="NewProjectWindow.h">
+      <Filter>Editor\UI\Widgets\NewProjectWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="ExplorerPanel.h">
+      <Filter>Editor\UI\Widgets\Explorer</Filter>
+    </QtMoc>
+    <QtMoc Include="PhysXMaterialViewer.h">
+      <Filter>Editor\UI\Widgets\InspectorPanel\Other</Filter>
+    </QtMoc>
+    <QtMoc Include="ComponentInspector.h">
+      <Filter>Editor\UI\Widgets\InspectorPanel\GameObjects\Components</Filter>
+    </QtMoc>
+    <QtMoc Include="DirectX11Widget.h">
+      <Filter>Editor\Viewports\MainEditView</Filter>
+    </QtMoc>
+    <QtMoc Include="GameObjectViewer.h">
+      <Filter>Editor\UI\Widgets\InspectorPanel\GameObjects</Filter>
+    </QtMoc>
+    <QtMoc Include="TransformComponentInspector.h">
+      <Filter>Editor\UI\Widgets\InspectorPanel\GameObjects\Components\TransformComp</Filter>
+    </QtMoc>
+    <QtMoc Include="SphereColliderComponentInspector.h">
+      <Filter>Editor\UI\Widgets\InspectorPanel\GameObjects\Components\SphereColliderComp</Filter>
+    </QtMoc>
+    <QtMoc Include="FileLineEdit.h">
+      <Filter>Editor\UI\Custom Objects</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="OverlordEditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="OverlordEditor.qrc">
+      <Filter>Resources</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
